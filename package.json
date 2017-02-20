@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Synopsis",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "1.x",
+    "express" : "4.2.x",
+    "mongojs": "2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishraak/todolist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishraak/todolist/issues"
+  },
+  "homepage": "https://github.com/mishraak/todolist#readme"
+}
